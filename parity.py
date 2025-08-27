@@ -7,9 +7,6 @@ def main():
         print("Odd")
 
 def iseven(num):
-    if num % 2 == 0:
-        return True
-    else:
-        return False
+    return num % 2 == 0
 
 main()
